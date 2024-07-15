@@ -1,0 +1,21 @@
+.home-nav{
+    background: #222831;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.home-logo{
+    background: white;
+    padding: 5px;
+    position: absolute;
+    left: 45px;
+    border-radius: 50px;
+}
+
+@media (max-width: 1000px){
+    .home-logo{
+        left: 25px;
+    }        
+}

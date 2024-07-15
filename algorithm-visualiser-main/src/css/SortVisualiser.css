@@ -1,0 +1,48 @@
+.sort-visualiser-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10vh 10vw;
+}
+
+.bar-container{
+    display: flex;
+    width: 80vw;
+    height: 70vh;
+    background-color: white;
+}
+
+.bar{
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid royalblue;
+    transition: height 0.1s ease-in;
+}
+
+.smaller{
+    background-color: pink;
+}
+
+.under-evaluation{
+    background-color: orange;
+}
+
+.completed{
+    background-color: greenyellow;
+    border: 0.1px solid green;
+}
+
+.special{
+    background-color: red;
+}
+
+@media (max-width: 1000px) {
+    .bar-container{
+        width: 95vw;
+    }
+
+    .sort-visualiser-main{
+        padding: 5vh 5vw;
+    }
+}

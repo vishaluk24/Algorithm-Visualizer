@@ -1,0 +1,25 @@
+.main{
+    height: calc(100vh - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    gap: 100px;
+}
+
+.home-btn{
+    color: white;
+    background-color: #3b82f6;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 70px;
+    width: 200px;
+    border: none;
+
+    &:hover{
+        cursor: pointer;
+        background-color: royalblue;
+    }
+}
